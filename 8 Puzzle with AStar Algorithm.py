@@ -142,20 +142,20 @@ def up(X, Y, numbers):
 
 
 def down(X, Y, numbers):
-    """This function performs the Upward movement"""
+    """This function performs the Downward movement"""
     numbers[X][Y] = numbers[X+1][Y]
     numbers[X+1][Y] = 0
 
 
 def left(X, Y, numbers):
-    """This function performs the Upward movement"""
+    """This function performs the left movement"""
 
     numbers[X][Y] = numbers[X][Y-1]
     numbers[X][Y-1] = 0
 
 
 def right(X, Y, numbers):
-    """This function performs the Upward movement"""
+    """This function performs the right movement"""
 
     numbers[X][Y] = numbers[X][Y+1]
     numbers[X][Y+1] = 0
